@@ -44,6 +44,7 @@ public:
         CONNECTION_TAB,
         SOUND_TAB,
         SOUNDEVENTS_TAB,
+        TTSEVENTS_TAB,
         SHORTCUTS_TAB,
         VIDCAP_TAB
     };

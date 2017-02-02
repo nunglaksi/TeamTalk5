@@ -27,6 +27,7 @@
 #include "desktopaccessdlg.h"
 #include "customvideofmtdlg.h"
 #include "settings.h"
+#include "ttseventsmodel.h"
 
 #include <QDebug>
 #include <QMessageBox>
@@ -142,6 +143,9 @@ PreferencesDlg::PreferencesDlg(QWidget * parent/* = 0*/)
             SLOT(slotEventQuestionMode()));
     connect(ui.desktopaccessBtn, SIGNAL(clicked()),
             SLOT(slotEventDesktopAccess()));
+
+    //text to speech
+    ui.ttsListView->setModel(new TTSEventsModel(this));
 
     //keyboard shortcuts
     connect(ui.voiceactButton, SIGNAL(clicked(bool)), 

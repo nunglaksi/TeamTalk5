@@ -13,7 +13,7 @@ HEADERS    = mainwindow.h preferencesdlg.h uservideowidget.h \
              userimagewidget.h userdesktopdlg.h desktopsharedlg.h \
              sendtextedit.h streammediafiledlg.h videotextdlg.h \
              desktopaccessdlg.h appinfo.h settings.h generatettfiledlg.h \
-             customvideofmtdlg.h license.h
+             customvideofmtdlg.h license.h ttseventsmodel.h
 
 SOURCES    = main.cpp mainwindow.cpp preferencesdlg.cpp uservideowidget.cpp \
              channelstree.cpp channeldlg.cpp userinfodlg.cpp \
@@ -27,7 +27,7 @@ SOURCES    = main.cpp mainwindow.cpp preferencesdlg.cpp uservideowidget.cpp \
              userdesktopwidget.cpp gridwidget.cpp userimagewidget.cpp \
              userdesktopdlg.cpp desktopsharedlg.cpp sendtextedit.cpp \
              streammediafiledlg.cpp videotextdlg.cpp desktopaccessdlg.cpp \
-             generatettfiledlg.cpp customvideofmtdlg.cpp
+             generatettfiledlg.cpp customvideofmtdlg.cpp ttseventsmodel.cpp
 
 FORMS      = mainwindow.ui channel.ui preferences.ui \
              serverlist.ui userinfo.ui bannedusers.ui useraccounts.ui \
@@ -74,7 +74,7 @@ INCLUDEPATH += $${TEAMTALK_INCLUDE}
 
 QT += xml network
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets multimedia
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets multimedia texttospeech
 
 TRANSLATIONS = languages/Bulgarian.ts \
                languages/Chinese_Simplified.ts \
