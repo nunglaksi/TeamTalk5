@@ -15,6 +15,9 @@
 		251997F61EBA5FDE003C94B1 /* txqueue_stop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 251997F51EBA5FDE003C94B1 /* txqueue_stop.mp3 */; };
 		251997F81EBA5FE7003C94B1 /* voiceact_off.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 251997F71EBA5FE7003C94B1 /* voiceact_off.mp3 */; };
 		251997FA1EBA5FEF003C94B1 /* voiceact_on.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 251997F91EBA5FEF003C94B1 /* voiceact_on.mp3 */; };
+		251B52F52150311D00414C0A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251B52F42150311D00414C0A /* VideoToolbox.framework */; };
+		251B52F72150315B00414C0A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 251B52F62150315B00414C0A /* libbz2.tbd */; };
+		251B52F92150317000414C0A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 251B52F82150317000414C0A /* libiconv.tbd */; };
 		251F61361BD68F6700617C43 /* TextMsgTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251F61351BD68F6700617C43 /* TextMsgTableCell.swift */; };
 		253343BF1C8C85CF00B43A9A /* Splash-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 253343BE1C8C85CF00B43A9A /* Splash-568h.png */; };
 		253713361BC8F0C700A7ADB3 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253713351BC8F0C700A7ADB3 /* MainTabBarController.swift */; };
@@ -84,6 +87,9 @@
 		251B42691C5D4723009650EA /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		251B426A1C5D4A31009650EA /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Main.strings; sourceTree = "<group>"; };
 		251B426B1C5D4A31009650EA /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		251B52F42150311D00414C0A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		251B52F62150315B00414C0A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		251B52F82150317000414C0A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		251F61351BD68F6700617C43 /* TextMsgTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMsgTableCell.swift; sourceTree = "<group>"; };
 		252BDD5F1C85F90600102B5E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
 		252BDD611C85F90600102B5E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -144,6 +150,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251B52F92150317000414C0A /* libiconv.tbd in Frameworks */,
+				251B52F72150315B00414C0A /* libbz2.tbd in Frameworks */,
+				251B52F52150311D00414C0A /* VideoToolbox.framework in Frameworks */,
 				25DE1FC01FADAAC800EA77D6 /* FBSDKLoginKit.framework in Frameworks */,
 				25DE1FC11FADAAC800EA77D6 /* FBSDKCoreKit.framework in Frameworks */,
 				254B7A7B1B99E77000BE0DEF /* libTeamTalk5.a in Frameworks */,
@@ -253,6 +262,9 @@
 		25DE1FBD1FADAAC700EA77D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				251B52F82150317000414C0A /* libiconv.tbd */,
+				251B52F62150315B00414C0A /* libbz2.tbd */,
+				251B52F42150311D00414C0A /* VideoToolbox.framework */,
 				25DE1FBF1FADAAC800EA77D6 /* FBSDKCoreKit.framework */,
 				25DE1FBE1FADAAC800EA77D6 /* FBSDKLoginKit.framework */,
 			);
