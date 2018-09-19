@@ -1,6 +1,7 @@
 project(tt5dll_ios) : ttdll, \
                     mod_ios, \
                     mod_audiounit, \
+                    mod_ffmpeg3, \
                     mod_httpauth, \
                     mod_opus, \
                     mod_speex, \
