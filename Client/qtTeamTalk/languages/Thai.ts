@@ -117,7 +117,7 @@
     <message>
         <location filename="../bannedusersdlg.cpp" line="52"/>
         <source>Ban Time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">เวลาที่ถูกห้ามใช้งาน</translation>
     </message>
     <message>
         <location filename="../bannedusersdlg.cpp" line="53"/>
@@ -321,7 +321,7 @@
         <location filename="../channel.ui" line="505"/>
         <location filename="../channel.ui" line="678"/>
         <source>Ignore silence (DTX)</source>
-        <translation>เพิกเฉย slience (ความเงียบ) (DTX)</translation>
+        <translation>ไม่สนใจความเงียบ (DTX)</translation>
     </message>
     <message>
         <location filename="../channel.ui" line="556"/>
@@ -336,7 +336,7 @@
     <message>
         <location filename="../channel.ui" line="656"/>
         <source>Kbps</source>
-        <translation>kbps</translation>
+        <translation>Kbps</translation>
     </message>
     <message>
         <location filename="../channel.ui" line="729"/>
@@ -551,7 +551,7 @@
     <message>
         <source>Authentication (optional)</source>
         <translatorcomment>การเชื่อมต่อกับเซิฟเวอร์</translatorcomment>
-        <translation type="obsolete">สิทธิพิเศษ (ตัวเลือกเสริม)</translation>
+        <translation type="obsolete">การได้รับสิทธิพิเศษ (ตัวเลือกเสริม)</translation>
     </message>
     <message>
         <source>Server password</source>
@@ -598,12 +598,12 @@
     <message>
         <location filename="../customvideofmt.ui" line="14"/>
         <source>Custom Video Format</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">จัดการรูปแบบวีดิทัศน์</translation>
     </message>
     <message>
         <location filename="../customvideofmt.ui" line="20"/>
         <source>Video Format</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">รูปแบบวีดิทัศน์</translation>
     </message>
     <message>
         <location filename="../customvideofmt.ui" line="28"/>
@@ -623,7 +623,7 @@
     <message>
         <location filename="../customvideofmt.ui" line="69"/>
         <source>FPS</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">FPS</translation>
     </message>
     <message>
         <location filename="../customvideofmt.ui" line="76"/>
@@ -2114,7 +2114,7 @@ Should these settings be applied?</source>
         <location filename="../mainwindow.ui" line="541"/>
         <source>Start/Stop Webcam</source>
         <translatorcomment>หน้าต่างหลัก</translatorcomment>
-        <translation>เริ่ม/หยุด กล้อง</translation>
+        <translation>เริ่ม/หยุด กล้อง webcam</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="630"/>
@@ -2142,7 +2142,7 @@ Should these settings be applied?</source>
     <message>
         <location filename="../mainwindow.ui" line="751"/>
         <source>Remove selected window</source>
-        <translation>เอาหน้าต่างที่เลือกไว้ออก</translation>
+        <translation>เอาหน้าต่างที่เลือกไว้ออกไป</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="787"/>
@@ -2279,7 +2279,7 @@ Should these settings be applied?</source>
         <location filename="../mainwindow.ui" line="1268"/>
         <source>&amp;About</source>
         <translatorcomment>หน้าต่างหลัก</translatorcomment>
-        <translation>เกี่ยวกับ&amp;โปรแกรมทีมท๊อค</translation>
+        <translation>เกี่ยวกับ&amp;โปรแกรม TeamTalk</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1276"/>
